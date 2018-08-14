@@ -1,1 +1,1 @@
-# game-of-gothic
+Game of Gothic
