@@ -1,0 +1,65 @@
+@font-face {
+	font-family: gothic;
+	src: url(font/gothic.ttf) format("truetype");
+}
+body {
+	margin: 0;
+	font-family: gothic;
+	text-align: center;
+	color: white;
+	background-color: #3c3c3c;
+}
+h1 {
+	font-size: 64px;
+	color : #ffaa00;
+	letter-spacing: 8px;
+	text-align: center;
+	text-shadow:  0px 0px 10px black;
+}
+h2 {
+	color: white;
+	font-size: 48px;
+	letter-spacing: 5px;
+	text-align: center;
+	text-shadow:  0px 0px 6px black;
+}
+h3 {
+	color: white;
+	font-size: 32px;
+	letter-spacing: 4px;
+	text-align: center;
+	text-shadow:  0px 0px 6px black;
+}
+.game {
+	font-size: 48px;
+	cursor: pointer;
+	letter-spacing: 5px;
+}
+.game:hover {
+	font-size: 48px;
+	color : #ffaa00;
+	letter-spacing: 5px;
+	text-shadow:  0px 0px 6px black;
+}
+.divCard {
+	cursor: pointer;
+	transition: all .6s linear;
+    transform-style: preserve-3d;
+	border: 2px solid black;
+	margin-top: 10px;
+	border-radius: 4px;
+}
+.divCard:hover {
+	border: 2px solid #ffaa00;
+}
+.cardActive {
+	cursor: default;
+	border: 2px solid black;
+}
+.cardActive:hover {
+	border: 2px solid black;
+}
+.change {
+    transform: rotateY(180deg);
+}
+
